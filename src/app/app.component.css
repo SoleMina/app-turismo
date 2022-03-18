@@ -1,0 +1,18 @@
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "menu contenido contenido contenido contenido contenido";
+}
+.grid-toolbar {
+  grid-area: header;
+}
+.grid-navbar {
+  grid-area: menu;
+}
+.grid-contenido {
+  grid-area: contenido;
+}
+body {
+  background-color: skyblue;
+}
