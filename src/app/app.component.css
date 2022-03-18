@@ -1,3 +1,6 @@
+body {
+  background-color: skyblue;
+}
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -12,7 +15,4 @@
 }
 .grid-contenido {
   grid-area: contenido;
-}
-body {
-  background-color: skyblue;
 }
